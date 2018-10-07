@@ -26,7 +26,7 @@ Justified Gallery comes in addition to Gallery plugin. You don't have to do noth
 
 ## How to configure Justified Gallery
 
-You can custom justified gallery on line 26 in file `system/plugins/justifiedgallery.php`:
+You can custom justified gallery on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/718ad449ebd849e9e0b2277d72d8c3b16f9f23dd/justifiedgallery.php#L26) in `system/plugins/justifiedgallery.php`:
 
 Take a look to the documentation on the [official website](http://miromannino.github.io/Justified-Gallery/options-and-events/).
 
