@@ -1,4 +1,4 @@
-Yellow Plugin Justified Gallery v3.7.0
+Justified Gallery plugin for Yellow
 ====================
 Based on [Justified Gallery v3.7.0 by Miro](https://github.com/miromannino/Justified-Gallery)
 
