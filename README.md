@@ -19,7 +19,7 @@ To uninstall delete the [plugin files](update.ini).
 
 ## How to use Justified Gallery
 
-Justified Gallery comes in addition to Gallery plugin. You don't have to do nothing, just use the gallery shortcut the same way as usual.
+Justified Gallery comes in addition to Gallery plugin. You don't have to do nothing, just use the gallery shortcut the same way as usual. Very useful when you use "xx%" to reduce your pictures.
 
     [gallery photo-album/]
     [gallery photo-album/ - 70%]
