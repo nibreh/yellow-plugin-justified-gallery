@@ -23,7 +23,7 @@ class YellowJustifiedGallery {
 			$output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$pluginLocation}justifiedgallery.min.css\">\n";
 			$output .= "<script type=\"text/javascript\">\n";
 			$output .= "\$('.photoswipe').justifiedGallery ({";
-			$output .= "rowHeight:'230', lastRow:'nojustify', margins:3, waitThumbnailsLoad:true});</script>\n";
+			$output .= "rowHeight:'200', lastRow:'nojustify', margins:3, waitThumbnailsLoad:true});</script>\n";
 		}
 		return $output;
 	}
