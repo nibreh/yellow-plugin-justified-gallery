@@ -42,7 +42,7 @@ Take a look to the documentation on the [official website](http://miromannino.gi
 
 By default, this plugin use this configuration: 
 
-    rowHeight : 150,
+    rowHeight : 200,
     lastRow : 'nojustify',
     margins : 3,
     waitThumbnailsLoad:true
