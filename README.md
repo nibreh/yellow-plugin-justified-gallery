@@ -24,11 +24,11 @@ Justified Gallery comes in addition to Gallery plugin. You don't have to do noth
     [gallery photo-album/]
     [gallery photo-album/ - 70%]
     
-It's not the perfect plugin because you must found the balance between width of your site & rowHeight on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/718ad449ebd849e9e0b2277d72d8c3b16f9f23dd/justifiedgallery.php#L26).
+It's not the perfect plugin because you can't configure Justified Gallery with shortcut. You must found balance between width of your site & rowHeight on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/718ad449ebd849e9e0b2277d72d8c3b16f9f23dd/justifiedgallery.php#L26).
 
 You don't have to use xx% if your pictures are < 500ko and small enough. That's what we suggest before upload pictures on your server:
 
-- Ideally, pictures must be smaller than 500ko 
+- pictures must be smaller than 500ko 
 - 1280x720 is enough
 - Quality 70% is enough
 
