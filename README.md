@@ -27,7 +27,7 @@ Justified Gallery comes in addition to Gallery plugin. You don't have to do noth
     [gallery photo-album/]
     [gallery photo-album/ - 70%]
     
-It's not the perfect plugin because you can't configure Justified Gallery with shortcut. You must found balance between width of your site, width/quality of your pictures & rowHeight on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/718ad449ebd849e9e0b2277d72d8c3b16f9f23dd/justifiedgallery.php#L26).
+It's not the perfect plugin because you can't configure Justified Gallery with shortcut. You must found balance between width of your site, width/quality of your pictures & rowHeight on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/master/justifiedgallery.php#L26).
 
 You don't have to use xx% if your pictures are < 500ko and small enough. That's what we suggest before upload pictures on your server:
 
@@ -39,7 +39,7 @@ You can do all this with [ImageMagick](https://www.imagemagick.org).
 
 ## How to configure Justified Gallery
 
-You can custom justified gallery on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/718ad449ebd849e9e0b2277d72d8c3b16f9f23dd/justifiedgallery.php#L26) in `system/plugins/justifiedgallery.php`:
+You can custom justified gallery on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/master/justifiedgallery.php#L26) in `system/plugins/justifiedgallery.php`:
 
 Take a look to the documentation on the [official website](http://miromannino.github.io/Justified-Gallery/options-and-events/).
 
