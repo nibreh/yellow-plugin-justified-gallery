@@ -10,21 +10,26 @@ class YellowJustifiedGallery {
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
+        if(!$this->yellow->config->isExisting("jquery3Cdn")) {
+			$this->yellow->config->setDefault("jquery3Cdn", "https://code.jquery.com/jquery-3.3.1.min.js");
+		}
     }
 
 	// Handle page extra HTML data
-	public function onExtra($name)
-	{
+	public function onExtra($name) {
 		$output = null;
-		if($name=="footer")
-		{			
+		if($name=="header") {			
 			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
-			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}justifiedgallery.min.js\"></script>\n";
+			$jquery3Cdn = $this->yellow->config->get("jquery3Cdn");
+			$output .= "<script type=\"text/javascript\" src=\"{$jquery3Cdn}\"></script>\n";
 			$output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$pluginLocation}justifiedgallery.min.css\">\n";
+			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}justifiedgallery.min.js\"></script>\n";
+		}
+		if($name=="footer") {
 			$output .= "<script type=\"text/javascript\">\n";
 			$output .= "\$('.photoswipe').justifiedGallery ({";
 			$output .= "rowHeight:'200', lastRow:'nojustify', margins:3, waitThumbnailsLoad:true});</script>\n";
-		}
+			}
 		return $output;
 	}
 }
