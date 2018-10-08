@@ -1,5 +1,8 @@
 Justified Gallery plugin for Yellow 0.7.7
 ====================
+
+___EXPERIMENTAL PLUGIN___ 
+
 Based on [Justified Gallery v3.7.0 by Miro](https://github.com/miromannino/Justified-Gallery)
 
 *Justified Gallery is a JavaScript library that allows you to create an high quality justified gallery of images.*
