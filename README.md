@@ -7,7 +7,7 @@ Based on [Justified Gallery v3.7.0 by Miro](https://github.com/miromannino/Justi
 
 *Justified Gallery is a JavaScript library that allows you to create an high quality justified gallery of images.*
 
-This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery) and you must have jQuery on your site
+This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery) and you must have jQuery on your site.
 
 <p align="center"><img src="example-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -15,7 +15,7 @@ This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/
 
 1. [Download and install Datenstrom Yellow](https://github.com/datenstrom/yellow/).
 2. [Download and install Gallery Plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery/).
-3. [Download and install jQuery PLugin](https://github.com/nibreh/yellow-plugin-jquery)
+3. [Download and install jQuery Plugin](https://github.com/nibreh/yellow-plugin-jquery)
 4. [Download plugin](https://github.com/nibreh/yellow-plugin-justified-gallery/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
 5. Copy `master.zip` into your `system/plugins` folder.
 
