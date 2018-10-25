@@ -7,7 +7,7 @@ Based on [Justified Gallery v3.7.0 by Miro](https://github.com/miromannino/Justi
 
 *Justified Gallery is a JavaScript library that allows you to create an high quality justified gallery of images.*
 
-This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery) and you must have [jQuery](https://github.com/nibreh/yellow-plugin-jquery) on your site.
+This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery) and you must have [jQuery plugin](https://github.com/nibreh/yellow-plugin-jquery) on your site.
 
 <p align="center"><img src="example-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -28,18 +28,10 @@ Justified Gallery comes in addition to Gallery plugin. You don't have to do noth
     [gallery photo-album/]
     [gallery photo-album/.*jpg]
     [gallery photo-album/.*jpg - 70%]
-    
-It's not the perfect plugin because you can't configure Justified Gallery with shortcut. You must found balance between width of your site, width/quality of your pictures & rowHeight on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/master/justifiedgallery.php#L26).
-
-You don't have to use xx% if your pictures are < 500ko and small enough. That's what we suggest before upload pictures on your server:
-
-- pictures must be smaller than 500ko 
-- 1280x720 is enough
-- Quality 70% is enough
-
-You can do all this with [ImageMagick](https://www.imagemagick.org).
 
 ## How to configure Justified Gallery
+
+It's not the perfect plugin because you can't configure Justified Gallery with shortcut. 
 
 You can custom justified gallery on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/master/justifiedgallery.php#L26) in `system/plugins/justifiedgallery.php`:
 
@@ -51,6 +43,20 @@ By default, this plugin use this configuration:
     lastRow : 'nojustify',
     margins : 3,
     waitThumbnailsLoad:true
+   
+## Tips
+
+You must found balance between width of your site, width/quality of your pictures & rowHeight with Justified Gallery on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/master/justifiedgallery.php#L26).
+
+You don't have to use `xx%` if your pictures are < 500ko. This is enough for the Web. 
+
+In fact, It is generally recommended this config for pictures on a website:
+
+- pictures must be smaller than 500ko 
+- 1280px is enough
+- Quality 70% is enough
+
+You can do all this with [ImageMagick](https://www.imagemagick.org).
 
 ## Developers
 
