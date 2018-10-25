@@ -25,7 +25,8 @@ To uninstall delete the [plugin files](update.ini).
 
 Justified Gallery comes in addition to Gallery plugin. You don't have to do nothing, just use the gallery shortcut the same way as usual.
 
-    [gallery photo-album/.*jpg] // don't forget .*jpg
+    [gallery photo-album/]
+    [gallery photo-album/.*jpg]
     [gallery photo-album/.*jpg - 70%]
     
 It's not the perfect plugin because you can't configure Justified Gallery with shortcut. You must found balance between width of your site, width/quality of your pictures & rowHeight on [line 26](https://github.com/nibreh/yellow-plugin-justified-gallery/blob/master/justifiedgallery.php#L26).
