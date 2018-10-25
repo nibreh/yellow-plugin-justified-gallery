@@ -7,7 +7,7 @@ Based on [Justified Gallery v3.7.0 by Miro](https://github.com/miromannino/Justi
 
 *Justified Gallery is a JavaScript library that allows you to create an high quality justified gallery of images.*
 
-This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery) and you must have jQuery on your site.
+This plugin comes in addition to [Gallery plugin](https://github.com/datenstrom/yellow-plugins/tree/master/gallery) and you must have [jQuery](https://github.com/nibreh/yellow-plugin-jquery) on your site.
 
 <p align="center"><img src="example-screenshot.png?raw=true" alt="Screenshot"></p>
 
